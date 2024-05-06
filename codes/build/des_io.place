@@ -1,0 +1,15 @@
+#Block Name  x   y   z    pcf_line
+#----------- --  --  -    ----
+$iopadmap$des.LCD_E  22   3  0  # set_io LCD_E 60
+$iopadmap$des.LCD_RS  24   3  0  # set_io LCD_RS 59
+$iopadmap$des.DATA_3  26   3  0  # set_io DATA(7) 57
+$iopadmap$des.DATA_2  28   3  0  # set_io DATA(6) 56
+$iopadmap$des.DATA_1  30   3  0  # set_io DATA(5) 55
+$iopadmap$des.DATA  32   3  0  # set_io DATA(4) 54
+$iopadmap$des.redled  22  32  0  # set_io redled 34
+$iopadmap$des.blueled  30  32  0  # set_io blueled 38
+switch       24  32  0  # set_io switch 39
+timer         6  32  0  # set_io timer 25
+start         4  32  0  # set_io start 23
+stop          8  32  0  # set_io stop 26
+dd           14  32  0  # set_io dd 30
